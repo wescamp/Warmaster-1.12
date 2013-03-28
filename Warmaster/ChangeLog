@@ -1,0 +1,94 @@
+*** This file contains (almost) all changes done at this campaign. ***
+
+ ** trewe 8-3-2013
+	+ added music playlist
+
+ ** trewe 9-12-2012
+	+ added german translation
+
+ ** trewe 01-12-2012
+	i run wmltools over the campaign
+	i converted to BfW 1.11
+	+ added portuguese (european) translation
+	* Balancing & Testing
+
+ ** trewe 28-10-2012
+	+ added traps in the 15 scenario
+	* raised the turn limit in 15 scenario
+	+ changed slightly the 4th scenario
+
+ ** trewe 26-10-2012
+	+ added a weapon drop system
+	+ changed Troy to level 0 (not on easy)
+	* Raised the gold for the Lich Master
+	* Changed village gold and income to keep the enemies out of depht
+	* adjusted the gold carryover
+	+ give a profile to the Lich Master, Ervin and Troy
+
+ ** trewe 25-10-2012
+	all TODO's done except maps
+
+ ** trewe 22-10-2012
+
+	TODO:	use more macros for unit creation
+		put maps outside of scenarios
+		run wmltools over the campaign
+		try to shorten the code with macros
+		generaly convert to 1.10/1.11 syntax
+		catch remaining bugs
+		make campaign translatable
+		change units to something sane
+
+ ** Current Version: 1.2b **
+
+i Scenarios done: 16(+02)/16
+
+Version 1.2b  : * Raised the basic income at scenario 15 by 15. Now you should really be able to
+                  keep yourself out of the red numbers.
+                ! One message in scenario 10 wasn't shown because I accidently entered the wrong
+                  name for the speaker (Delfador... Tsts...). This is now fixed.
+
+Version 1.2   : * Raised the standard-starting gold in scenario 15 significantly since it is
+                  likely that the player runs out of gold until that scenario and isn't able
+                  to beat it then.
+                ! The recall list should no longer vanish at the beginning of "Helping Elves".
+                  (Just because the WML seemed to dislike the way I added the starting elves to
+                   the scenario... So I'm doing it another way now. Although I can't guarantee
+                   that this bug really is fixed now it didn't happen again to me yet, so I
+                   guess it is.)
+                * Made Igor a bit stronger and gave him a ranged weapon to make him stronger than
+                  a normal royal guard and to make him an a bit greater threat to his enemies.
+                + Added two additional guards for Groud to make it harder for the orcs to enter
+                  the castle and kill the player.
+                ! Ehehe. Blame me. Gwoddroy in scenario 04 is now really named "Gwoddroy"...
+
+Version 1.1   : * Raised the turn limit at "Darkness Everywhere" by 15.
+                * Raised the turn limit at "Volcano" by 4.
+                - Removed the two one-hex villages in the beginning scenario that made the
+                  ogre-leader almost impossible to defeat in some situations.
+                * Made Groud weaker. He also is an important target for the enemies now.
+                  (To make the beginning battle a bit more important)
+                * Reduced the starting gold of the enemies in "Darkness Everywhere" by 50% and
+                  gave them more income instead. This should prevent the caves from being empty
+                  all the time. It should also prevent the player from being overwhelmed by a
+                  gigantic wave of trolls all at once.
+                * Changed gold/income of the enemies in scenario 15.
+                + Added/improved text in the later scenarios a lot
+                * Some other minor balancement changes
+
+Version 1.0   : * Made Troy-boy at novice-level a bit more resilient.
+				! Removed the death-traps in scenario 11 because they were buggy
+					(Though having added a filter that should prevent flying units from
+					being killed by the trap it did kill them).
+				+ Added a little label in scenario 04 that shows where you can get the
+					allowance.
+				* Changed monster-units available in scenario 01 mostly to level-0-ones
+					to keep them from blocking the path with their ZOC all the time.
+				+ Added this changelog.
+				+ Added a small treasure in scenario 07 to prevent the player from running
+					out of money just because of being a bit unlucky
+				* Lowered the XP Troy needs to gain a level
+
+Version 0.6   : i First but incomplete release. Yet done: 11(+02)/16 Scenarios.
+
++ = Added     - = Removed     ! = Bug     * = Change     i = Info
